@@ -4,9 +4,9 @@ int isUnity(long n);
 
 int main()
 {
-    long n;
+    long n = 2565;
     printf("\nEnter a number to find UNITY or NOT: ");
-    scanf("%ld", &n);
+    // scanf("%ld", &n);
 
     if (isUnity(n))
         printf("The given number %ld is UNITY!\n", n);
