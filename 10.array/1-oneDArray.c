@@ -1,8 +1,9 @@
 #include <stdio.h>
+#define MAX 100
 
 int main()
 {
-    int marks[100];
+    int marks[MAX];
     int i, n, max, studentNumber;
 
     /* To get number of students */
