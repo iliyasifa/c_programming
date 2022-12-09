@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+#define MAX 12
+
 int max(int[], int);
 
 int main()
 {
-    int marks[] = {34, 67, 85, 26, 2, 87};
+    int marks[MAX] = {34, 67, 85, 26, 2, 87};
     printf("\nThe maximum mark is %d\n", max(marks, 6));
 }
 
